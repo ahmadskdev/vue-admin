@@ -1,0 +1,42 @@
+@import './variables';
+@import '~bootstrap/scss/bootstrap';
+@import './waves';
+@import './tooltip';
+@import './sidebar';
+@import './dropdown';
+
+* {
+  //border-radius: 0px!important;
+}
+
+body {
+  background-color: hsl(0, 0%, 85%);
+}
+
+// classes for font sizes
+.fs-5 {
+  font-size: 5rem!important;
+}
+.fs-10 {
+  font-size: 10rem!important;
+}
+
+.material-icons {
+  font-size: $font-size-base * 1.5!important;
+}
+
+.shadow-ask {
+  box-shadow: 0px 0px 25px 0px rgba(82, 63, 105, 0.15)!important;
+}
+
+.card-dashboard {
+  border: none!important;
+}
+
+.page-title {
+  padding: .5rem;
+}
+
+.material-icons {
+  cursor: pointer;
+}
